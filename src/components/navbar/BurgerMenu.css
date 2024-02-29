@@ -1,0 +1,25 @@
+.burger-menu {
+  transition:
+    opacity 0.5s ease-in-out,
+    transform 0.5s ease-in-out;
+}
+
+.open {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.closed {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.open-button {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.closed-button {
+  opacity: 0;
+  transform: translateY(-120%);
+}

@@ -1,0 +1,68 @@
+import {
+  cleverpost,
+  fitjourney,
+  mahlzeit,
+  mahlzeitBackend,
+  pinpad,
+  salvilighting,
+  savemoneyapp,
+} from "../assets";
+
+export const projects = [
+  {
+    des: "Welcome to the Mahlzeit APP, a comprehensive project that showcases a robust CRUD (Create, Read, Update, Delete) functionality for efficiently managing and organizing a diverse collection of recipes. This application empowers registered users to seamlessly interact with their recipes library, granting them the ability to explore, personalize, and maintain their recipes effortlessly.",
+    src: mahlzeit,
+    githubLink: "https://github.com/Ivangg88/mahlzeit-front",
+    title: "Mahlzeit",
+    websiteLink: "https://igarcia-mahlzeit.netlify.app/",
+    technologies: ["html", "css", "typescript", "redux", "styledcomponents"],
+  },
+  {
+    des: "This API provides endpoints for user registration, authentication, and managing a collection of songs. It allows you to perform operations like creating, reading, updating, and deleting songs. Below are the details of the available endpoints and the associated HTTP status codes.",
+    githubLink: "https://github.com/Ivangg88/mahlzeit-back",
+    src: mahlzeitBackend,
+    title: "Mahlzeit backend",
+    websiteLink: "https://mahlzeit-back-dev-qssa.1.us-1.fl0.io/reciptes/getAll",
+    technologies: ["html", "css", "typescript", "nodeJs", "mongodb"],
+  },
+  {
+    des: "FitJourney is designed to be used by organizations and hospitals looking to provide personalized weekly exercise plans to their patients. This App was developed for the 5th Hackaton Boehringer Ingleheim. ",
+    githubLink: "https://github.com/Ivangg88/fitjourney",
+    src: fitjourney,
+    title: "Fitjourney",
+    websiteLink: "https://igarcia-fitjourney.netlify.app/",
+    technologies: ["html", "css", "typescript"],
+  },
+  {
+    des: "This is a CRUD (Create, Read, Update, Delete) functionality for efficiently managing and organizing your expenses and budget. Developed by colleages of the bootcamp in ISDI Coders as side project.",
+    githubLink: "https://github.com/Ivangg88/sma",
+    src: savemoneyapp,
+    title: "Savemoney App",
+    websiteLink: "https://igarcia-sma.netlify.app/",
+    technologies: ["html", "css", "typescript", "material-ui"],
+  },
+  {
+    des: "Technical test for the company Salvi Lighting. The App implement a map with diferents locations.",
+    githubLink: "https://github.com/Ivangg88/prueba-tecnica-salvin",
+    src: salvilighting,
+    title: "Salvi lighting",
+    websiteLink: "https://igarcia-prueba-salvi.netlify.app//",
+    technologies: ["html", "css", "typescript"],
+  },
+  {
+    des: "Cleverpost is a platform for managing posts from users. You can list all posts, see one post detail, delete a post and a edit a post. Also you have a complete user list, with their full details..",
+    githubLink: "https://github.com/Ivangg88/prueba-tecnica-cleverpy",
+    src: cleverpost,
+    title: "Cleverposts",
+    websiteLink: "https://igarcia-cleverposts.netlify.app",
+    technologies: ["html", "css", "typescript", "sass"],
+  },
+  {
+    des: "This project showcases a PIN pad interface that allows users to input a PIN combination and receive feedback on its accuracy. Support for a colleague's technical test for Sonar.",
+    githubLink: "",
+    src: pinpad,
+    title: "Pinpad",
+    websiteLink: "https://andreamartinez-pinpad-sonar.netlify.app/",
+    technologies: ["html", "css", "typescript"],
+  },
+];
